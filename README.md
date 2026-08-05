@@ -23,3 +23,9 @@ debounces rapid writes so bulk saves produce a single sync per file.
 - Debounced writes (200ms default)
 - Handles create, write, and remove events
 - Cross-platform (Windows, macOS, Linux)
+
+## Error Codes
+| Code | Description |
+|------|-------------|
+| 1 | Invalid args |
+| 2 | Source not found |
